@@ -15,14 +15,17 @@
     "dotenv": "^8.0.0"
   },
   "devDependencies": {
-    "husky": "^3.0.3",
-    "nodemon": "^1.19.1",
-    "prettier": "1.18.2",
-    "pretty-quick": "^1.11.1"
+    "husky": "^4.3.8",
+    "nodemon": "^3.1.14",
+    "prettier": "1.18.2"
   },
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint"
     }
+  },
+  "resolutions": {
+    "ws": "^6.2.6",
+    "brace-expansion": "^1.1.18"
   }
 }
